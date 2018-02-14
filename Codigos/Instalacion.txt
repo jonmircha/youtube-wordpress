@@ -1,0 +1,18 @@
+1)Descargar WordPress http://es.wordpress.org/
+2)Descomprimir WordPress en el localhost
+3)Buscar archivo wp-config-sample.php, renombrarlo como wp-config.php y editar: 
+	db,
+	user,
+	pwd,
+	host,
+	charset,
+	table_prefix,
+	Authentication Unique Keys
+4)Crear una  BD en MySQL desde http://localhost/phpmyadmin
+5)Ejecutar la carpeta del sitio en el navegador y llenar la información de la instalación
+6)Una vez instalado:
+	Para ver wp como user:
+		localhost/ruta-del-sitio
+	Para ver wp como admin:
+		localhost/ruta-del-sitio/wp-login.php
+		localhost/ruta-del-sitio/wp-admin

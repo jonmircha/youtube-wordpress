@@ -1,0 +1,471 @@
+/* 
+Theme Name: Guau guau
+Theme URI: http://bextlan.com/cursos/wordpress
+Author: Jonathan MirCha
+Author URI: http://jonmircha.com
+Description: Este es el tema diseñado para mi sitio personal de perros.
+Version: 0.0.1
+Tags: perros, canes, sabuesos, dogs, html5, wordpress, responsive design, bextlán.
+*/
+html, body {
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	color: #EEE;
+	background-color: #444;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+a { color: greenyellow; }
+
+a:hover { opacity: .75; }
+
+hr {
+	width: 80%;
+	margin: 2rem auto;
+	border: thin solid #FFF;
+}
+
+hr:last-child { display: none; }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+mark { 
+	padding: .25rem;
+	background-color: yellowgreen;
+	font-weight: bold;
+}
+
+.container {
+	display: block;
+	margin: auto;
+	max-width: 1200px;
+	font-size: 0;
+	/* background-color: #EEE; */
+}
+
+.item {
+	font-size: 1rem;
+	padding: 1rem;
+	width: 100%;
+	/* background-color: #999; */
+}
+
+.i-b {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ph10 { width: 10%; }
+
+.ph20 { width: 20%; }
+
+.ph25 { width: 25%; }
+
+.ph30 { width: 30%; }
+
+.ph33 { width: 33.3333333333%; }
+
+.ph40 { width: 40%; }
+
+.ph50 { width: 50%; }
+
+.ph50 { width: 50%; }
+
+.ph70 { width: 70%; }
+
+.ph80 { width: 80%; }
+
+.ph90 { width: 90%; }
+
+.ph100 { width: 100%; }
+
+.error {
+	margin-top: 12rem; 
+	padding: 1rem;
+	font-size: 2rem;
+	text-align: center;
+	color: #000;
+	background-color: #663;
+}
+
+.main, .footer { background-color: #222; }
+
+.post {
+	background-color: #222;
+	text-align: center;
+}
+
+.the-content p, .the-content ul {
+	margin: 1rem auto;
+	text-align: left;
+}
+
+.the-content ul { list-style-position: inside; }
+
+.the-content h2 { 
+	margin: 2rem auto 1rem;
+	color: greenyellow;
+}
+
+.widescreen { margin: 1rem auto 3rem; }
+
+.title-template {
+	font-size: 1.5rem;
+	color: greenyellow;
+}
+
+.avatar {
+	border: thin solid #444;
+	border-radius: 100%;
+}
+
+.comment-respond {
+	padding: 1rem;
+	border: medium solid #444;
+	background-color: #666;
+}
+
+.comments-form-list ol {
+	background-color: #666;
+	list-style-position: inside;
+}
+
+.comments-form-list li {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: #333;
+}
+
+.comments-form-list a { color: greenyellow; }
+
+.wp-post-image {
+	border-radius: .5rem;
+	box-shadow: .1rem .1rem .5rem rgba(173, 255, 47, .5);
+}
+
+.widgets { background-color: #333; }
+
+.widgets h3 { font-size: 1.5rem; }
+
+.other-widget { font-size: .75rem; }
+
+.wp-pagenavi { text-align: center; }
+
+.wp-pagenavi .pages {
+	display: block;
+	width: 100%;
+	margin: 1rem auto;
+}
+
+.wp-pagenavi .first, .wp-pagenavi .last, .wp-pagenavi .page, .wp-pagenavi .extend { display: none; }
+
+.wp-pagenavi .current { border-color: #FFF !important; }
+
+.nav { text-align: center; }
+
+.main-nav, .search { display: none; }
+
+.main-nav li { list-style-type: none; }
+
+.main-nav a {
+	display: block;
+	width: 100%;
+	padding: 1rem;
+}
+
+.main-nav a:hover {
+	background-color: #222;
+	transition: all .5s ease-out;
+}
+
+.sub-menu a { margin-left: 1rem; }
+
+.social-nav li {
+	display: inline;
+	padding: .5rem;
+	font-size: 1.5rem;
+	list-style-type: none;
+}
+
+.logo {
+	height: 10rem;
+	font-size: 0;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-origin: content-box;
+	background-size: contain;
+}
+
+.mobile-nav {
+	position: fixed;
+	top: .25rem;
+	right: .25rem;
+	font-size: 3rem;
+	color: greenyellow;
+	cursor: pointer;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	background-color: #663;
+}
+
+.fixed-top { margin-top: 10rem; }
+
+.search { 
+	font-size: 0;
+	text-align: center;
+}
+
+.search  label { display: none; }
+
+#searchsubmit {
+	display: inline;
+	padding: .25rem;
+	width: 2rem;
+	height: 2rem;
+	font-size: 0;
+	border: 0;
+	background: #FFF url('img/huella.png') no-repeat center;
+	background-origin: content-box;
+	background-size: contain;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+#searchsubmit:hover { background-color: #444; }
+
+#s {
+	display: inline;
+	vertical-align: middle;
+	padding: .25rem;
+	width: 70%;
+	height: 2rem;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+	border: 0;
+}
+
+#wpadminbar { 
+	box-sizing: content-box;
+	position: fixed !important;
+	height: 3rem !important;
+	background-color: rgba(173,255,47,.75) !important;
+}
+
+.main-image {
+	width: 100%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.title {
+	height: inherit;
+	line-height: 400px;
+	font-size: 3rem;
+	letter-spacing: .5rem;
+	color: greenyellow;
+	background-color: rgba(0,0,0,.5); 
+}
+
+.info-post { text-align: left; }
+
+#comment-tabs { 
+	width: 100%;
+	background-color: #EEE !important;
+}
+
+ul[role="tablist"] { display: none; }
+
+.search-link {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.search-link h2 { color: greenyellow; }
+
+.search-link img {
+	max-width: 150px;
+	height: auto; 
+}
+
+.search-message { font-size: 1.5rem; }
+
+.the-excerpt { text-align: left; }
+
+.author-info {
+	text-align: center;
+	background-color: #222;
+}
+
+.author-info ul { list-style-type: none; }
+
+.author-info li { padding: .25rem; }
+
+.main-items {
+	text-align: center;
+	background-color: #222;
+}
+
+.main-items:hover { background-color: #663; }
+
+@media screen and (min-width: 30em) {
+	.sm10 { width: 10%; }
+
+	.sm20 { width: 20%; }
+
+	.sm25 { width: 25%; }
+
+	.sm30 { width: 30%; }
+
+	.sm33 { width: 33.3333333333%; }
+
+	.sm40 { width: 40%; }
+
+	.sm50 { width: 50%; }
+
+	.sm60 { width: 60%; }
+
+	.sm70 { width: 70%; }
+
+	.sm80 { width: 80%; }
+
+	.sm90 { width: 90%; }
+
+	.sm100 { width: 100%; }
+
+	.logo { background-position: center; }
+
+	.wp-pagenavi .first, .wp-pagenavi .last, .wp-pagenavi .page, .wp-pagenavi .extend { display: inline; }
+
+	.wp-pagenavi .pages { width: 50%; }
+
+	.social-nav li { 
+		padding: 1rem;
+		font-size: 2rem;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	.md10 { width: 10%; }
+
+	.md20 { width: 20%; }
+
+	.md25 { width: 25%; }
+
+	.md30 { width: 30%; }
+
+	.md33 { width: 33.3333333333%; }
+
+	.md40 { width: 40%; }
+
+	.md50 { width: 50%; }
+
+	.md60 { width: 60%; }
+
+	.md70 { width: 70%; }
+
+	.md80 { width: 80%; }
+
+	.md90 { width: 90%; }
+
+	.md100 { width: 100%; }
+
+	.fixed-top { margin-top: 11rem; }
+
+	.search-link h2 { text-align: left; }
+}
+
+@media screen and (min-width: 64em) {
+	.lg10 { width: 10%; }
+
+	.lg20 { width: 20%; }
+
+	.lg25 { width: 25%; }
+
+	.lg30 { width: 30%; }
+
+	.lg33 { width: 33.3333333333%; }
+
+	.lg40 { width: 40%; }
+
+	.lg50 { width: 50%; }
+
+	.lg60 { width: 60%; }
+
+	.lg70 { width: 70%; }
+
+	.lg80 { width: 80%; }
+
+	.lg90 { width: 90%; }
+
+	.lg100 { width: 100%; }
+
+	.logo, .main-nav, .search { 
+		display: inline-block !important;
+		vertical-align: middle;
+	}
+
+	.mobile-nav { display: none; }
+
+	.main-nav a {
+		display: inline;
+		padding: 0;
+	}
+
+	.main-nav li { 
+		display: inline;
+		padding: .75rem;
+	}
+	
+	.main-nav li:hover {
+		background-color: #222;
+		transition: all .5s ease-out;
+	}
+
+	.main-nav li:last-child { position: relative; }
+
+	.main-nav li:last-child:hover > .sub-menu {
+		/* display: block; */
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.sub-menu {
+		position: absolute;
+		top: 2.7rem;
+		left: 0;
+		/* display: none; */
+		background-color: #444;
+		visibility: hidden;
+		opacity: 0;
+		transition: all .5s ease-out;
+	}
+
+	.sub-menu li { display: block; }
+
+	.sub-menu a { margin-left: 0; }
+
+	.sub-menu li:hover, .sub-menu a:hover { background-color: #222; }
+
+	.wp-pagenavi .pages { width: 30%; }
+
+	.author-info figure { text-align: right; }
+
+	.author-info ul { text-align: left; }
+}

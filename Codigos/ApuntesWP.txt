@@ -1,0 +1,81 @@
+Intro:
+	http://bextlan.com/slides/wordpress/
+
+Documentación:
+	http://codex.wordpress.org/
+	https://codex.wordpress.org/es:Getting_Started_with_WordPress
+	https://developer.wordpress.org/reference/
+
+Roles y Capacidades
+	https://codex.wordpress.org/es:Roles_y_Capacidades#Subscriber
+	https://codex.wordpress.org/Roles_and_Capabilities#Capability_vs._Role_Table
+
+Temas:
+	http://wordpress.org/themes/
+	http://themeforest.net/
+
+Enlaces personalizados:
+	/%category%/%postname%/
+
+Noticias sobre la versión de WordPress actual
+	http://larutademisitio.com/wp-admin/about.php
+
+Contenido externo compatible con WP:
+	https://codex.wordpress.org/Embeds
+
+Buenas Practicas de PHP en WP
+	https://make.wordpress.org/core/handbook/coding-standards/php/
+
+Jerarquía de la Estructura de un Tema:
+	https://developer.wordpress.org/files/2014/10/wp-template-hierarchy.jpg
+
+Funciones de inclusión obligatorias:
+	Si queremos que nuestro tema permita el correcto funcionamiento de plugins de terceros, debemos activar las siguientes funciones de esta manera WordPress permite a los plugins imprimir información en el header o el footer:
+	<?php wp_head(); ?>
+		Debemos colocarlo antes de </head>
+	<?php wp_footer(); ?>
+		Debemos colocarlo antes de </body>
+
+Funciones:
+	https://codex.wordpress.org/Plugin_API
+		Listado de acciones - http://codex.wordpress.org/Plugin_API/Action_Reference
+		Listado de filtros - http://codex.wordpress.org/Plugin_API/Filter_Reference
+
+Comentarios:
+	http://codex.wordpress.org/Function_Reference/wp_list_comments
+	http://codex.wordpress.org/Function_Reference/comment_form
+	http://codex.wordpress.org/Function_Reference/comments_template
+
+Búsquedas:
+	http://codex.wordpress.org/Function_Reference/get_search_form
+
+Autor:
+	https://codex.wordpress.org/Function_Reference/the_author
+	https://codex.wordpress.org/Function_Reference/get_the_author_meta
+	https://codex.wordpress.org/Function_Reference/get_avatar
+
+Plugins:
+	http://wordpress.org/plugins/
+	WP No Category Base
+    WP-No-Tag-Base
+    WP-PageNavi
+    Comments Evolved for WordPress
+    Infinite Scroll
+    Insert PHP
+    Contact Form 7
+    Jetpack
+    Yoast SEO
+    WP Super Cache
+    Max Mega Menu
+	
+Widgets:
+	https://codex.wordpress.org/Widgets_API
+	http://codex.wordpress.org/Function_Reference/register_sidebar
+
+Entrega de proyecto WP:
+	carpeta del WP
+	archivo.sql
+	.htaccess
+	wp-config.php
+	user adminwp
+	pass adminwp

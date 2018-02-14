@@ -1,0 +1,132 @@
+/* 
+Theme Name: Guau guau
+Theme URI: http://bextlan.com/cursos/wordpress
+Author: Jonathan MirCha
+Author URI: http://jonmircha.com
+Description: Este es el tema diseñado para mi sitio personal de perros.
+Version: 0.0.1
+Tags: perros, canes, sabuesos, dogs, html5, wordpress, responsive design, bextlán.
+*/
+html, body {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #EEE;
+	background-color: #222;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+a { color: greenyellow; }
+
+a:hover { opacity: .75; }
+
+hr {
+	width: 20%;
+	margin: 2rem auto;
+	border: medium dashed #222;
+}
+
+hr:last-child { display: none; }
+
+mark { 
+	padding: .25rem;
+	background-color: yellowgreen;
+	font-weight: bold;
+}
+
+p {
+	padding: 1rem;
+}
+
+a[rel="tag"] {
+	padding: .25rem;
+	border-radius: .25rem;
+	background-color: #CCC;
+}
+
+.post-categories {
+	margin: 1rem;
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background-color: #AAA;
+}
+
+.container {
+	display: block;
+	margin: 1rem auto;
+	padding: 1rem;
+	width: 100%;
+	font-size: 0;
+	background-color: #EEE;
+}
+
+.item {
+	font-size: 1rem;
+	padding: 1rem;
+	width: 100%;
+	background-color: #999;
+	border: medium solid #444;
+}
+
+.i-b {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.w-30 { width: 30%; }
+
+.w-70 { width: 70%; }
+
+.error {
+	padding: 1rem;
+	font-size: 2rem;
+	text-align: center;
+	color: red;
+	background-color: yellow;
+}
+
+.post {
+	padding: 1rem;
+	background-color: #444;
+}
+
+.the-content {
+	margin: 1rem auto;
+	padding: 1rem;
+	background-color: #666;
+}
+
+.title-template {
+	font-size: 1.5rem;
+	color: greenyellow;
+}
+
+.avatar {
+	border: thin solid #444;
+	border-radius: 100%;
+}
+
+.comment-respond {
+	padding: 1rem;
+	border: medium solid #444;
+	background-color: #666;
+}
+
+.comments-form-list ol, .author-info {
+	background-color: #666;
+	list-style-position: inside;
+}
+
+.comments-form-list li {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: #333;
+}
+
+.comments-form-list a { color: greenyellow; }

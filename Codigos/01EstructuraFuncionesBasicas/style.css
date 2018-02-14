@@ -1,0 +1,48 @@
+/* 
+Theme Name: Guau guau
+Theme URI: http://bextlan.com/cursos/wordpress
+Author: Jonathan MirCha
+Author URI: http://jonmircha.com
+Description: Este es el tema diseñado para mi sitio personal de perros.
+Version: 0.0.1
+Tags: perros, canes, sabuesos, dogs, html5, wordpress, responsive design, bextlán.
+*/
+html, body {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #EEE;
+	background-color: #222;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: block;
+	margin: 1rem auto;
+	padding: 1rem;
+	width: 100%;
+	font-size: 0;
+	background-color: #EEE;
+}
+
+.item {
+	font-size: 1rem;
+	padding: 1rem;
+	width: 100%;
+	background-color: #999;
+	border: medium solid #444;
+}
+
+.i-b {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.w-30 { width: 30%; }
+
+.w-70 { width: 70%; }

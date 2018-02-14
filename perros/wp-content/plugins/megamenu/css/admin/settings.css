@@ -1,0 +1,463 @@
+
+/**
+ * theme EDITOR
+ */
+.toplevel_page_maxmegamenu .megamenu_wrap {
+	width: 100%;
+	float: left;
+}
+.toplevel_page_maxmegamenu .megamenu_left {
+	float: left;
+	width: 190px;
+	margin-left: -100%;
+}
+
+.toplevel_page_maxmegamenu .megamenu_left ul li a:hover,
+.toplevel_page_maxmegamenu .megamenu_left ul li a.active {
+    border-left: 2px solid #0074a2;
+    color: #0074a2;
+}
+.toplevel_page_maxmegamenu *:focus {
+	box-shadow: 0 0 0;
+}
+.toplevel_page_maxmegamenu .megamenu_left ul li a {
+	text-decoration: none;
+	color: #333;
+	width: 100%;
+	display: block;
+	padding: 5px 0px 5px 17px;
+	box-sizing: border-box;
+	border-left: 2px solid white;
+	outline: 0;
+}
+
+
+.toplevel_page_maxmegamenu .megamenu_left ul li.error {
+	border-left: 3px solid #dd3d36;
+}
+.toplevel_page_maxmegamenu .megamenu_left ul li.mega_active {
+	font-weight: bold;
+}
+.toplevel_page_maxmegamenu .megamenu_left ul li.mega_active a:after {
+	right: 0;
+	content: '\f139';
+	border: 0;
+	background: 0 0;
+	font: 400 20px/1 dashicons;
+	speak: none;
+	float: right;
+	padding: 0;
+	text-indent: 0;
+	text-align: center;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none!important;
+	margin-right: 0;
+}
+
+.toplevel_page_maxmegamenu .megamenu_right {
+	margin-left: 190px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-left: 1px solid #f1f1f1;
+	min-height: 400px;
+}
+
+.toplevel_page_maxmegamenu .megamenu_right h4.first {
+	margin: 0em 0 0.7em 0;
+}
+.toplevel_page_maxmegamenu .megamenu_right h4 {
+	clear: both;
+	border-bottom: 1px solid #cccccc;
+	padding: 0 0 10px 0;
+	font-size: 1.2em;
+	margin: 1.33em 0 0.7em 0;
+}
+.toplevel_page_maxmegamenu .megamenu_right h5 {
+	clear: both;
+	padding: 0 0 10px 0;
+	font-size: 1.1em;
+	margin: 1.33em 0 0.7em 0;
+}
+.toplevel_page_maxmegamenu .megamenu_right ul.bullets {
+	list-style-type: disc;
+	margin-left: 30px;
+}
+.toplevel_page_maxmegamenu a {
+	text-decoration: none;
+}
+.toplevel_page_maxmegamenu .theme_selector {
+	background: #fbfbfb;
+	padding: 10px;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 33px;
+}
+.toplevel_page_maxmegamenu h3 {
+	margin: 0 0 40px 0;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings .duplicate {
+	margin-left: 15px;
+}
+.toplevel_page_maxmegamenu .megamenu_outer_wrap {
+	padding: 20px 20px 0 0;
+}
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_submit {
+	margin-bottom: 40px;
+}
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_submit .mega_left,
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_submit .mega_right {
+    float: left;
+    width: 50%;
+}
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_submit p {
+	margin: 0;
+	padding: 0;
+}
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_submit .mega_right {
+	text-align: right;
+}
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_submit .mega_right a {
+	color: #a00;
+}
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_header {
+	background: white;
+	padding: 10px 17px;
+	border-bottom: 1px solid #f1f1f1;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_header .version {
+	font-style: italic;
+	color: #888;
+	margin-bottom: 15px;
+}
+
+
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_header_top {
+	font-size: 0.9em;
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_header_top ul {
+	margin: 0;
+	float: right;
+	position: relative;
+}
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_header_top ul li {
+	display: inline-block;
+	margin: 0 0 0 10px;
+	line-height: 30px;
+}
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_header_top ul li.mega-highlight {
+	background: #00b7bf;
+	border-radius: 5px;
+}
+.toplevel_page_maxmegamenu .megamenu_outer_wrap .megamenu_header_top ul li.mega-highlight a {
+	color: white;
+	line-height: 30px;
+	padding: 0 10px;
+}
+.toplevel_page_maxmegamenu .megamenu_wrap {
+	background: white;
+}
+.toplevel_page_maxmegamenu .megamenu_right .nav-tab-active {
+	background: white;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings tr:first-child td {
+	border-top: 0;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings th {
+	text-align: left;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings td {
+	padding-bottom: 25px;
+	padding-top: 10px;
+	border-top: 1px solid #efefef;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings td.mega-name {
+	width: 27%;
+	line-height: 2em;
+	padding-right: 30px;
+	vertical-align: top;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings td.mega-value {
+	padding-top: 10px;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings td.mega-name .mega-description,
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings td.mega-value .mega-description {
+	font-size: 0.9em;
+	color: #aaa;
+	line-height: 1.5em;
+}
+
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings td.mega-value .mega-info {
+	clear: both;
+	margin-top: 15px;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	color: #aaa;
+	line-height: 20px;
+	width: 100%;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings td.mega-value .mega-info:before {
+	font: 400 20px/1 dashicons;
+	content: "\f348";
+	speak: none;
+	padding: 0;
+	margin-right: 6px;
+	display: inline-block;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings td.mega-value .mega-description {
+	margin-top: 5px;
+}
+
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table textarea,
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table input,
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table select {
+	font-size: 0.9em;
+	height: 28px;
+	line-height: 28px;
+	vertical-align: top;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table input[type=number] {
+	height: auto;
+	line-height: 1.2em;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table input.mega-setting-title {
+	width: 100px;
+}
+
+.toplevel_page_maxmegamenu .megamenu_right textarea {
+	width: 100%;
+	height: 150px;
+	font-family: monospace;
+	line-height: 1.5em;
+	font-size: 0.8em;
+}
+
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table textarea {
+	width: 100%;
+	height: 150px;
+	font-family: monospace;
+	line-height: 1.5em;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table .CodeMirror {
+	height: 150px;
+	border: 1px solid #aaa;
+}
+
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table ul.custom_styling_tips {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table ul.custom_styling_tips code {
+	margin: 10px 0 0 0;
+	font-size: 0.9em;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table input {
+	width: 70px;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table label {
+    font-size: 0.9em;
+    float: left;
+    margin-right: 10px;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table label span.mega-short-desc {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #aaa;
+	display: block;
+	margin: 0 0 2px 1px;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table .wide input[type=text] {
+	width: 300px;
+}
+
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table input[type=submit] {
+	width: auto;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table input[type=checkbox] {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings .row h5 {
+	margin: 0;
+	font-weight: normal;
+	float: left;
+	width: 250px;
+	font-size: 1em;
+}
+
+.toplevel_page_maxmegamenu .megamenu_right .fail {
+	border: 1px solid #aaa;
+	border-left: 4px solid #dd3d36;
+	background: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	padding: 7px 0 7px 15px;
+	margin: 0 0 20px 0;
+}
+.toplevel_page_maxmegamenu .megamenu_wrap .success {
+	border: 1px solid #aaa;
+	border-left: 4px solid #7ad03a;
+	background: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	padding: 7px 0 7px 7px;
+	margin: 0 0 20px 0;
+}
+.toplevel_page_maxmegamenu .megamenu_wrap .success .dashicons {
+	color: #7ad03a;
+	margin-right: 7px;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings select.icon_dropdown {
+	margin-right: 0;
+}
+.toplevel_page_maxmegamenu .megamenu_right .menu_settings .selected_icon::before {
+	font: 400 20px/1 dashicons;
+	speak: none;
+	padding: 5px 0 0 0;
+	margin-right: 20px;
+	display: inline-block;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.toplevel_page_maxmegamenu .mm-picker-container .sp-replacer {
+	margin: 0;
+	float: left;
+}
+
+.toplevel_page_maxmegamenu .mm-picker-container .sp-replacer .sp-preview {
+	border: 0;
+	height: 26px;
+	width: 26px;
+	margin: 0;
+}
+.toplevel_page_maxmegamenu .mm-picker-container input.mm_colorpicker {
+	float: left;
+	border: 0;
+	height: 23px;
+	box-shadow: 0 0 0;
+	margin: 0;
+}
+
+.toplevel_page_maxmegamenu .mm-picker-container {
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(0,0,0,.08);
+	border: 1px solid #ccc;
+	font-size: 0.9em;
+	margin-right: 10px;
+	float: left;
+}
+
+.toplevel_page_maxmegamenu .mm-picker-container div.chosen-color {
+	background: #f7f7f7;
+	-webkit-border-radius: 0 2px 2px 0;
+	border-radius: 0 2px 2px 0;
+	border-left: 1px solid #ccc;
+	color: #555;
+	font-size: 11px;
+	line-height: 26px;
+	padding: 0 6px;
+	text-align: center;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+	float: left;
+	cursor: default;
+}
+
+.toplevel_page_maxmegamenu .megamenu_right .mega-location {
+	border: 1px solid #e5e5e5;
+  	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+  	box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+	margin-bottom: 15px;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location:hover,
+.toplevel_page_maxmegamenu .megamenu_right .mega-location.mega-open {
+	border-color: #ccc;
+	opacity: 1;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-location-header {
+	width: 100%;
+	cursor: pointer;
+	line-height: 40px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	font-weight: bold;
+	background: #f7f7f7;
+	color: #777;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-location-header:hover {
+	background: #f1f1f1;
+	color: #444;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location.mega-open .mega-location-header {
+	background: #f1f1f1;
+	color: #444;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-status:before,
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-assigned-menu:before,
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-location-header-indicator:after {
+	font: 400 20px/40px dashicons;
+	content: "\f142";
+	speak: none;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-location-header-indicator {
+	float: right;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location.mega-closed .mega-location-header-indicator:after {
+	content: "\f140";
+}
+.toplevel_page_maxmegamenu .mega-delete {
+	margin-bottom: 15px;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-inner {
+	padding: 0 10px;
+	border-top: 1px solid #ddd;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-assigned-menu:before {
+	content: "\f333";
+	font-size: 16px;
+	margin-right: 2px;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-status:before {
+	content: "\f147";
+	font-size: 16px;
+	margin-right: 2px;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-status,
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-assigned-menu {
+	float: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	opacity: 0.7;
+	margin-right: 15px;
+	font-size: 0.8em;
+}
+.toplevel_page_maxmegamenu .megamenu_right .mega-location .mega-inner textarea {
+	height: 30px;
+}

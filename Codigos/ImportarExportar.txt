@@ -1,0 +1,25 @@
+Importar/Exportar
+
+Esto sirve para ir del localhost al servidor en internet o viceversa
+
+1)Respaldar todo WordPress (wp-admin,wp-includes,wp-content,archivos sueltos)
+2)Cargar/Descargar el respaldo (FTP, SSH, github)
+3)Exportar en formato .sql la BD desde el phpMyAdmin
+	Considera que a veces phpMyAdmin no nos agrega la instrucción CREATE DATABASE y USE
+4)Abrir el archivo .sql y reemplazar todas las rutas locales a las del servidor en internet o viceversa con ayuda del comando buscar y reemplazar de tu editor de código favorito
+5)Modificar las siguientes lineas del archivo .htaccess
+	# BEGIN WordPress
+	<IfModule mod_rewrite.c>
+	RewriteEngine On
+	----> RewriteBase /perros/
+	RewriteRule ^index\.php$ - [L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	----> RewriteRule . /perros/index.php [L]
+	</IfModule>
+	# END WordPress
+6)Modificar BD,USER,PWD y HOST MySQL en el archivo wp-config.php
+7)Importar la BD en el destino y cargar el nuevo contenido
+
+Nota:
+	Si las estructuras de carpeta se respetan en el servidor y en el localhost, cuando haya nuevos cambios, sólo hay que hacer los pasos 2,3, 4 y 7. los demás sólo la primera vez.

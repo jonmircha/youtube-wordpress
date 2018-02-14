@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="maxmegamenu" horiz-adv-x="1000" >
+<font-face font-family="maxmegamenu" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="logo-best" unicode="&#xe800;" d="m392 850l1 0c1-1 1-1 2-2 31-23 63-44 95-65 89-61 178-121 267-181 9-6 18-12 27-18l0-1c-13-8-26-17-39-25-117-79-234-157-351-235-2 0-4-1-6 0-89 60-179 120-269 180-40 27-79 54-119 80l0 1c16 11 32 22 48 33 111 74 221 149 331 224 5 3 9 5 13 9l0 0z m-392-386c70-46 140-93 211-139 60-40 120-80 181-119 130 86 261 172 392 258l0-355c-6-4-12-7-17-11-34-22-67-44-101-67 0 10 0 19 0 29 0 69 0 139 0 208-88-58-176-116-264-174-3-2-6-4-10-6-1-1-1 0-2 0-91 60-182 120-273 180 0-79 0-158 0-237-39 26-78 52-117 78l0 355 0 0z m236-392c52-35 104-69 156-103 52 34 104 69 156 103 0-30 0-60 0-90 0-9 0-19 1-28-53-35-105-69-157-104-50 33-100 66-150 99-2 2-6 3-6 5 0 39 0 79 0 118l0 0z" horiz-adv-x="784" />
+</font>
+</defs>
+</svg>
